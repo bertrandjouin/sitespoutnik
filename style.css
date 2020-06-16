@@ -17,9 +17,6 @@ h3 {
 
 .navbar {
   text-align: right;
-}
-
-.navbar {
   padding: 1em;
 }
 
@@ -133,7 +130,6 @@ h3 {
 .partwithimage {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
   background-size: cover;
-  background-position: center;
   margin: 0px;
   min-height: 20em;
   width: 100%;
@@ -189,6 +185,36 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
   margin: 0px auto;
 }
 
+.avatar {
+  width: 10em;
+  border-radius: 50%;
+  position: relative;
+  top:-5em;
+}
+
+.profilecard {
+  background-color: white;
+  height: auto;
+  margin: 5em auto;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.profilecard-content {
+  position: relative;
+  top:-5em;
+}
+
+
+.greenback {
+  background-color: 35975E;
+  height: 10em;
+  width: 100%;
+}
+
 .footer {
   background: #F4F4F4;
   display: flex;
@@ -198,6 +224,7 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -212,6 +239,11 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
 .footer-links a:hover {
   opacity: 1;
 }
+
+
+
+
+
 
 
 @media (max-width: 575px) {
