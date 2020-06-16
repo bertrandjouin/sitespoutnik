@@ -129,7 +129,7 @@ h3 {
 
 .partwithimage {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
-  background-size: cover;
+  background-size: contain;
   margin: 0px;
   min-height: 20em;
   width: 100%;
