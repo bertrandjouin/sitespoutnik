@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+}
+
+
 h1,h2,h3 {
   font-family: 'Roboto';
 }
@@ -126,13 +131,15 @@ h3 {
   color: 0F5B54;
 }
 
+.card ul {
+    padding-inline-start: 1em;
+}
 
 .partwithimage {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
-  background-size: contain;
+  background-size: cover;
   margin: 0px;
   min-height: 20em;
-  width: 100%;
 }
 
 .fourcol {
@@ -173,7 +180,7 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
 }
 
 #duedil {
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/partnership.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
 }
 
 #references {
@@ -196,18 +203,28 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
   background-color: white;
   height: auto;
   margin: 5em auto;
-  width: 40%;
+  width: 45%;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
 }
 
 .profilecard-content {
   position: relative;
   top:-5em;
+  padding:1em;
 }
 
+.profilecard-content ul {
+  padding-inline-start: 1em;
+}
+
+
+.profilecard-content h3 {
+  font-size:2em;
+}
 
 .greenback {
   background-color: 35975E;
@@ -241,19 +258,19 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
 }
 
 
-
-
-
-
-
 @media (max-width: 575px) {
   .threecol {
     grid-template-columns: 1fr;
   }
-  }
-
-  @media (max-width: 575px) {
   .fourcol {
     grid-template-columns: 1fr;
   }
+  .profilecard {
+    width: 100%;
   }
+  .navbar {
+    display:none;
+  }
+
+
+}
