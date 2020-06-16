@@ -139,11 +139,11 @@ h3 {
 }
 
 .partwithimage {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
-  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcgrnd.jpg);
   background-size: cover;
-/*  margin: 0px;*/
-  min-height: 20em;
+  background-position: center;
+  object-fit:fill;
+  width: 100%;
 }
 
 .fourcol {
@@ -233,6 +233,23 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   background-color: 35975E;
   height: 10em;
   width: 100%;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: 35975E;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  top: 2em;
+
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
 }
 
 .footer {
