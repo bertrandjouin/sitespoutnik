@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0px;
 }
@@ -138,7 +141,7 @@ h3 {
 .partwithimage {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
   background-size: cover;
-  margin: 0px;
+/*  margin: 0px;*/
   min-height: 20em;
 }
 
@@ -208,7 +211,6 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-
 }
 
 .profilecard-content {
@@ -218,7 +220,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
 }
 
 .profilecard-content ul {
-  padding-inline-start: 1em;
+  padding-inline-start: 1.5em;
 }
 
 
@@ -257,8 +259,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   opacity: 1;
 }
 
-
-@media (max-width: 575px) {
+@media (max-width: 70em) {
   .threecol {
     grid-template-columns: 1fr;
   }
@@ -271,6 +272,5 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   .navbar {
     display:none;
   }
-
-
 }
+
