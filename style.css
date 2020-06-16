@@ -140,6 +140,7 @@ h3 {
 
 .partwithimage {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcg.jpg);
+  width: 100%;
   background-size: cover;
 /*  margin: 0px;*/
   min-height: 20em;
@@ -271,6 +272,9 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   }
   .navbar {
     display:none;
+  }
+  body {
+    font-size: 1.2em;
   }
 }
 
