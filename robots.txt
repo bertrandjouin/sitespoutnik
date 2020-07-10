@@ -1,2 +1,2 @@
 User-agent: * Disallow:
-Sitemap: https://www.spoutnk.io/sitemap.xml
+Sitemap: https://www.spoutnik.io/sitemap.xml
