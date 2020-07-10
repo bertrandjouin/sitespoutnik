@@ -1,1 +1,2 @@
 User-agent: * Disallow:
+Sitemap: https://www.spoutnk.io/sitemap.xml
