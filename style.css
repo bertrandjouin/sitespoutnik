@@ -32,6 +32,11 @@ h3 {
   color: #0F5B54;
 }
 
+.head p {
+  color: white;
+  font-style: italic;
+}
+
 .navbar {
   text-align: right;
   padding: 1em;
