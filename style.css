@@ -186,6 +186,7 @@ h3 {
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 10px;
 }
 .card-project h2, a {
 color: white;
@@ -209,10 +210,38 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
 }
 
 .refs {
-
   width: 70%;
-  margin: 40px auto;
+  margin: 20px auto;
 }
+
+.ref {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 250px
+}
+
+
+
+.ref img:hover  {
+
+-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+filter: grayscale(0%); /* Firefox */ }
+
+.ref img {
+
+-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+filter: grayscale(100%); /* Firefox */ }
+
+#bouygues {
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
+/*width: 100%;*/
+height: 100%;
+
+}
+
+
 
 .avatar {
   width: 10em;
