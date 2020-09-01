@@ -209,8 +209,9 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
 }
 
 .refs {
-  width: 100%;
-  margin: 0px auto;
+
+  width: 70%;
+  margin: 40px auto;
 }
 
 .avatar {
