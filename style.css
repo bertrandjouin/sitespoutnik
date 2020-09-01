@@ -168,6 +168,13 @@ h3 {
   grid-gap: 1.5em;
 }
 
+.fivecol {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
 .list {
   text-align: left;
 }
@@ -210,7 +217,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
 }
 
 .refs {
-  width: 70%;
+  width: 60%;
   margin: 20px auto;
 }
 
@@ -219,20 +226,22 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 250px
+  min-height: 120px
+}
+#imagesrefs {
+  width: 70%;
+  margin: 0px auto;
 }
 
-
-
 .ref img:hover  {
-
 -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
 filter: grayscale(0%); /* Firefox */ }
 
 .ref img {
-
--webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-filter: grayscale(100%); /* Firefox */ }
+  width: 75%;
+  height: auto;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%); /* Firefox */ }
 
 #bouygues {
 background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
@@ -240,8 +249,6 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/
 height: 100%;
 
 }
-
-
 
 .avatar {
   width: 10em;
@@ -330,6 +337,11 @@ height: 100%;
   .fourcol {
     grid-template-columns: 1fr;
   }
+
+  .fivecol {
+    grid-template-columns: 1fr;
+  }
+
   .profilecard {
     width: 100%;
   }
