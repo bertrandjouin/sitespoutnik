@@ -258,15 +258,9 @@ filter: grayscale(0%); /* Firefox */ }
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
   filter: grayscale(100%); /* Firefox */ }
 
-
-
-
-
-
 #secteurs {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/secteurbackground.jpg);
+  background-color: white;
 }
-
 
 .logosecteur {
   font-size:2em;
@@ -292,6 +286,10 @@ filter: grayscale(0%); /* Firefox */ }
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+#profil {
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/secteurbackground.jpg);
+}
+
 
 .avatar {
   width: 10em;
@@ -304,7 +302,7 @@ filter: grayscale(0%); /* Firefox */ }
   background-color: white;
   height: auto;
   margin: 5em auto;
-  width: 65%;
+  width: 50%;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
