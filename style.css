@@ -3,7 +3,6 @@ body {
   margin: 0px;
 }
 
-
 span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
@@ -154,11 +153,14 @@ h3 {
 }
 
 .partwithimage {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcgrnd.jpg);
   background-size: cover;
   background-position: center;
   object-fit:fill;
   width: 100%;
+}
+
+#expertises {
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcgrnd.jpg);
 }
 
 .fourcol {
@@ -212,8 +214,21 @@ background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/
 background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
 }
 
+
+.transited {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.transited:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Désactivation de la partie références */
 #references {
   background-color: white;
+  display:none;
 }
 
 .refs {
@@ -243,12 +258,40 @@ filter: grayscale(0%); /* Firefox */ }
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
   filter: grayscale(100%); /* Firefox */ }
 
-#bouygues {
-background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
-/*width: 100%;*/
-height: 100%;
 
+
+
+
+
+#secteurs {
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/secteurbackground.jpg);
 }
+
+
+.logosecteur {
+  font-size:2em;
+  color: white;
+}
+
+
+.cardsecteur p {
+  color: white;
+}
+
+.cardsecteur h3 {
+  color: white;
+}
+
+.cardsecteur {
+  background-color: #0F5B54;
+  height: auto;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 
 .avatar {
   width: 10em;
