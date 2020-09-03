@@ -32,7 +32,10 @@ h3 {
 }
 
 
-
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
 
 .part {
   background-color:F5F5F5;
