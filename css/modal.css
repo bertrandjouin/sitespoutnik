@@ -73,10 +73,6 @@
   margin-top: 35px;
 }
 
-.title p {
-  color: red;
-}
-
 @media (max-width: 400px) {
 
 .modal-container #modal-orga:checked ~ .modal-backdrop .modal-content { left: 0; }
