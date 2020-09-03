@@ -14,7 +14,7 @@ span {
   }
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   font-family: 'Roboto';
 }
 
@@ -31,6 +31,11 @@ h3 {
   color: #0F5B54;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #0F5B54;
+}
 
 .container {
   width: 80%;
@@ -101,7 +106,7 @@ h3 {
 }
 
 #expertises {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/consultingbcgrnd.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(../assets/consultingbcgrnd.jpg);
 }
 
 .fourcol {
@@ -138,66 +143,25 @@ h3 {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 10px;
 }
-.card-project h2, a {
+.card-project h3, a {
 color: white;
 text-decoration: none;
 }
 
 #accesmarche {
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/accesmarche.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/accesmarche.jpg);
 }
 
 #orga {
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(assets/teamorganization.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/teamorganization.jpg);
 }
 
 #duedil {
-background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(assets/partnership.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/partnership.jpg);
 }
 
 
-.transited {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);;
-  transition: box-shadow 0.3s ease-in-out;
-}
 
-
-.transited:hover {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-}
-
-/* Désactivation de la partie références */
-#references {
-  background-color: white;
-  display:none;
-}
-
-.refs {
-  width: 60%;
-  margin: 20px auto;
-}
-
-.ref {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 120px
-}
-#imagesrefs {
-  width: 70%;
-  margin: 0px auto;
-}
-
-.ref img:hover  {
--webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-filter: grayscale(0%); /* Firefox */ }
-
-.ref img {
-  width: 75%;
-  height: auto;
-  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-  filter: grayscale(100%); /* Firefox */ }
 
 #secteurs {
   background-color: white;
@@ -213,7 +177,7 @@ filter: grayscale(0%); /* Firefox */ }
   color: white;
 }
 
-.cardsecteur h3 {
+.cardsecteur h4 {
   color: white;
 }
 
@@ -228,7 +192,7 @@ filter: grayscale(0%); /* Firefox */ }
 }
 
 #profil {
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(assets/secteurbackground.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(../assets/secteurbackground.jpg);
 }
 
 
