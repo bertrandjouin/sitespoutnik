@@ -3,26 +3,8 @@ body {
   margin: 0px;
 }
 
-span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
-
 h1,h2,h3,h4 {
   font-family: 'Roboto';
-}
-
-a, p, li, label {
-  font-family: 'Roboto';
-  font-weight: lighter;
-  font-size: 1.2em;
-  color: #4B4B4B;
 }
 
 h3 {
@@ -35,6 +17,34 @@ h4 {
   font-weight: bold;
   font-size: 1.2em;
   color: #0F5B54;
+}
+
+a, p, li, label {
+  font-family: 'Roboto';
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: #4B4B4B;
+}
+
+.threecol {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.fourcol {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.fivecol {
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5em;
 }
 
 .container {
@@ -63,39 +73,11 @@ h4 {
   font-size: 3.5em;
 }
 
-
 .contentbox-subtitle {
   font-weight: 300;
   font-size: 1.5em;
   padding-left: 2em;
   padding-right: 2em;
-}
-
-.threecol {
-  margin-top: 4em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1.5em;
-}
-
-.card {
-  background-color: white;
-  height: auto;
-  padding: 1.5em;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.card i {
-  font-weight: 500;
-  font-size: 4em;
-  color: 0F5B54;
-}
-
-.card ul {
-    padding-inline-start: 1em;
 }
 
 .partwithimage {
@@ -109,26 +91,32 @@ h4 {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(../assets/consultingbcgrnd.jpg);
 }
 
-.fourcol {
-  margin-top: 4em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1.5em;
+.grey {
+  color: F5F5F5;
 }
 
-.fivecol {
-  margin-top: 4em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1.5em;
+.card {
+  background-color: white;
+  height: auto;
+  padding: 1.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .list {
   text-align: left;
 }
 
-.grey {
-  color: F5F5F5;
+.card i {
+  font-weight: 500;
+  font-size: 4em;
+  color: 0F5B54;
+}
+
+.card ul {
+    padding-inline-start: 1em;
 }
 
 .card-project {
@@ -143,37 +131,23 @@ h4 {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 10px;
 }
+
 .card-project h3, a {
 color: white;
 text-decoration: none;
 }
 
-#accesmarche {
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/accesmarche.jpg);
+.card-project i {
+font-size:2em;
+margin-top: 2em;
 }
 
-#orga {
-background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/teamorganization.jpg);
-}
-
-#duedil {
-background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/partnership.jpg);
-}
-
-
-
-
-#secteurs {
-  background-color: white;
+.cardsecteur p {
+  color: white;
 }
 
 .logosecteur {
   font-size:2em;
-  color: white;
-}
-
-
-.cardsecteur p {
   color: white;
 }
 
@@ -191,17 +165,29 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../asse
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+
+#accesmarche {
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/accesmarche.jpg);
+}
+
+#orga {
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/teamorganization.jpg);
+}
+
+#duedil {
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/partnership.jpg);
+}
+
+#secteurs {
+  background-color: white;
+}
+
 #profil {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(../assets/secteurbackground.jpg);
 }
 
 
-.avatar {
-  width: 10em;
-  border-radius: 50%;
-  position: relative;
-  top:-5em;
-}
+
 
 .profilecard {
   background-color: white;
@@ -224,13 +210,19 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../asse
   padding-inline-start: 1.5em;
 }
 
+.avatar {
+  width: 10em;
+  border-radius: 50%;
+  position: relative;
+  top:-5em;
+}
 
 .profilecard-content h3 {
   font-size:2em;
 }
 
 .greenback {
-  background-color: 35975E;
+  background-color: #0F5B54;
   height: 10em;
   width: 100%;
 }
@@ -239,7 +231,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../asse
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background-color: 35975E;
+  background-color: #0F5B54;
   transition: background 0.3s ease;
   text-decoration: none;
   position: relative;
@@ -251,30 +243,7 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../asse
   color: white;
 }
 
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
-}
 
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  opacity: 1;
-}
 
 @media (max-width: 70em) {
   .threecol {

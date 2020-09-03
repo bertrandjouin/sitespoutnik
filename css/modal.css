@@ -71,7 +71,10 @@
 
 .center {
   margin-top: 35px;
+}
 
+.title p {
+  color: red;
 }
 
 @media (max-width: 400px) {

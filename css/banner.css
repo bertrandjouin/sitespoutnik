@@ -34,3 +34,14 @@
     font-size: 3em;
     color : white;
 }
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
