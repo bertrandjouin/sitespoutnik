@@ -1,14 +1,50 @@
-a{
-  display:inline-block;
+a {
   text-decoration: none;
   color: black;
-  background-color: #4285F4;
   padding: 10px;
 }
 
+.card-project {
+  margin: 0 auto;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.card-project h3, a {
+  color: white;
+  text-decoration: none;
+}
+
+.card-project i {
+  font-size:2em;
+  margin-top: 2em;
+  color:white;
+}
+
+#accesmarche {
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/accesmarche.jpg);
+}
+
+#orga {
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/teamorganization.jpg);
+}
+
+#duedil {
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/partnership.jpg);
+}
+
+
 .modalDialog {
   position: fixed;
-  font-family: Arial, Helvetica, sans-serif;
   top: 0;
   right: 0;
   bottom: 0;
@@ -22,18 +58,28 @@ a{
   pointer-events: none;
 }
 
+.title {
+  color: #0F5B54;
+  font-weight: 500;
+}
+
+.field {
+  font-style: italic;
+}
+
 .modalDialog:target {
   opacity:1;
   pointer-events: auto;
 }
 
 .modalDialog > div {
-  width: 400px;
+  width: 50%;
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
-  background: #34A855;
-
+  background: #F5F5F5;
+  border-radius: 4px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
 }
 
 .close {
