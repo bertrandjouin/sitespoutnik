@@ -3,4 +3,6 @@ ErrorDocument 404 /404.html
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^spoutnik\.io$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.spoutnik\.io$
-RewriteRule ^(.*)$ https://www.spoutnik.cio$1 [R,L]
+RewriteRule ^(.*)$ https://www.spoutnik.io$1 [R,L]
+RewriteCond %{HTTPS} !=on
+
