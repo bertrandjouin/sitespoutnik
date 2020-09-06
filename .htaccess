@@ -4,5 +4,3 @@ RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^spoutnik\.io$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.spoutnik\.io$
 RewriteRule ^(.*)$ https://www.spoutnik.io$1 [R,L]
-RewriteCond %{HTTPS} !=on
-
