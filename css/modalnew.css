@@ -19,7 +19,7 @@ a {
   padding: 10px;
 }
 
-.card-project h3, a {
+.card-project h4, a {
   color: white;
   text-decoration: none;
 }

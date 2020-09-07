@@ -14,25 +14,35 @@
 }
 
 .head p {
-  margin-top: 2em;
-  margin-bottom: 10px;
   color: white;
   font-weight: 500;
-  font-size: 6em;
-}
-.banner h1 {
-  color: white;
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 1em;
-  margin-top: 2em;
+  font-size: 4em;
+  margin:0;
 }
 
-.banner h2 {
-    margin: 0px;
-    font-weight: 300;
-    font-size: 3em;
-    color : white;
+.warning {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#typed   {
+  margin-bottom: 10px;
+}
+
+#typed {
+  color: blanchedalmond;
+}
+
+.valueprop {
+  width: 60%;
+}
+
+.valueprop h2, h1 {
+  margin: 0px;
+  margin-bottom: 0.5em;
+  font-weight: 100;
+  font-size: 1.6em;
+  color : white;
 }
 
 span {
@@ -45,3 +55,14 @@ span {
     border-color: transparent;
   }
 }
+
+@media (max-width: 70em) {
+.valueprop {
+  width: 100%;
+}
+.head {
+  padding: 2em 0px;
+}
+}
+
+
