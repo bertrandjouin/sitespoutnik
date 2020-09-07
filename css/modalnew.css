@@ -95,3 +95,13 @@ background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../asse
 .close:hover {
 color: #EA4436;
 }
+
+@media (max-width: 70em) {
+.modal-container h4 {
+  font-size: 1.5em;
+}
+.modalDialog > div {
+  font-size:2em;
+  width: 75%;
+}
+}
