@@ -10,7 +10,6 @@
 
 .navbar li {
   display: inline;
-  font-style: lighter;
 }
 
 .navbar a {
@@ -26,4 +25,5 @@
 .nav-link {
   margin-right: 2em;
   text-decoration: none;
+  font-weight: lighter;
 }
