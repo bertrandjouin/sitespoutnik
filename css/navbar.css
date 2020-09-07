@@ -10,6 +10,7 @@
 
 .navbar li {
   display: inline;
+  font-style: lighter;
 }
 
 .navbar a {
