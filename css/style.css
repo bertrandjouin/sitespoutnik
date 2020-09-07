@@ -205,7 +205,7 @@ p, li, label {
 
 @media (max-width: 70em) {
   .container {
-    width: 90%;
+    width: 85%;
   }
   .threecol {
     grid-template-columns: 1fr;
