@@ -1,6 +1,4 @@
 .card-project {
-  font-size:1em;
-  margin: 0 auto;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -11,10 +9,10 @@
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding: 10px;
+  padding: 1.5em;
 }
 
-.modal-container h4, a {
+.card-project h4, a {
   color: white;
   text-decoration: none;
 }
