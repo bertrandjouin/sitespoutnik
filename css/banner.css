@@ -22,7 +22,7 @@
 
 .warning {
   margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 
 }
 
@@ -40,7 +40,7 @@
 }
 
 .valueprop {
-  width: 60%;
+  width: 55%;
 }
 
 .valueprop h2, h1 {
@@ -61,6 +61,21 @@ span {
     border-color: transparent;
   }
 }
+
+
+#inverse {
+  color: #0F5B54;
+  background-color: white;
+}
+
+#inverse:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+
+
+
 
 @media (max-width: 70em) {
 .valueprop {

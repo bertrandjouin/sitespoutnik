@@ -189,7 +189,7 @@ p, li, label {
 .btn-flat {
   color: white;
   padding: 8px 24px;
-  border-radius: 4px;
+  border-radius: 50px;
   background-color: #0F5B54;
   transition: background 0.3s ease;
   text-decoration: none;
