@@ -229,5 +229,9 @@ p, li, label {
   body {
     font-size:120%;
   }
+  .contentbox-subtitle {
+    padding-left: 0em;
+    padding-right: 0em;
+}
 }
 
