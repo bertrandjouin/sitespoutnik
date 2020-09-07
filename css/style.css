@@ -1,9 +1,6 @@
 
 body {
   margin: 0px;
-}
-
-h1,h2,h3,h4 {
   font-family: 'Roboto';
 }
 
@@ -19,8 +16,7 @@ h4 {
   color: #0F5B54;
 }
 
-a, p, li, label {
-  font-family: 'Roboto';
+p, li, label {
   font-weight: lighter;
   font-size: 1.2em;
   color: #4B4B4B;
@@ -130,6 +126,8 @@ a, p, li, label {
 
 .cardsecteur h4 {
   color: white;
+  min-height: 2.4em;
+  margin-bottom: 0;
 }
 
 .cardsecteur {
@@ -212,7 +210,6 @@ a, p, li, label {
   .fourcol {
     grid-template-columns: 1fr;
   }
-
   .fivecol {
     grid-template-columns: 1fr;
   }
@@ -221,9 +218,6 @@ a, p, li, label {
   }
   .navbar {
     display:none;
-  }
-  body {
-    font-size: 1em;
   }
   .banner h1 {
   margin-top: 0em;

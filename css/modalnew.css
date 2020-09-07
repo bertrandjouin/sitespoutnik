@@ -1,8 +1,8 @@
-a {
+/*a {
   text-decoration: none;
   color: black;
   padding: 10px;
-}
+}*/
 
 .card-project {
   margin: 0 auto;
@@ -19,15 +19,18 @@ a {
   padding: 10px;
 }
 
-.card-project h4, a {
+.modal-container h4, a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .card-project i {
   font-size:2em;
   margin-top: 2em;
   color:white;
+  position: absolute;
+  bottom: 1em;
 }
 
 #accesmarche {

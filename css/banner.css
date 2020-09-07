@@ -23,7 +23,13 @@
 .warning {
   margin-top: 3em;
   margin-bottom: 3em;
+
 }
+
+.ocb  {
+  display: flex;
+}
+
 
 #typed   {
   margin-bottom: 10px;
@@ -61,7 +67,7 @@ span {
   width: 100%;
 }
 .head {
-  padding: 2em 0px;
+  padding: 2em;
 }
 }
 
