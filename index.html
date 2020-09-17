@@ -353,6 +353,23 @@
 <!--               <script id="CookieDeclaration" src="https://consent.cookiebot.com/07feabec-38ce-45e0-87b4-dc67d4212cfc/cd.js" type="text/javascript" async></script>
  -->
 
+              <div class="modal" [ngClass]="{ 'is-active': showModal }">
+                <div class="modal-content notification is-secondary">
+                  <h4 class="title is-4">Un cookie ?</h4>
+
+                  <p>
+                    Ce site utilise
+                    <a routerLink="'/mentions-legales'">des cookies</a>
+                    pour améliorer votre expérience utilisateur. En cliquant sur "j'accepte", vous autorisez à recevoir des cookies de ce site.
+                  </p>
+                  <p>
+                    <a (click)="acceptCookies()" id="accept-cookies" class="button is-primary">J'accepte les cookies</a>
+                  </p>
+                </div>
+              </div>
+
+
+
               <div class="footer">
                 <div class="footer-links">
                   <a href="https://www.linkedin.com/in/bertrandjouin/" target="blank" ><i class="fab fa-linkedin"></i></a>
