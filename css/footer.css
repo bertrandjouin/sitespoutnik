@@ -25,4 +25,11 @@
 
 .footer-copyright {
   margin-right: 2em;
+  margin-bottom: 0em;
+}
+
+.mentions a {
+  font-size:0.5em;
+  color:black;
+  text-align: right;
 }
