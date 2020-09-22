@@ -117,6 +117,10 @@ p, li, label {
     padding-inline-start: 1em;
 }
 
+.nomargintop {
+  margin-top: 0;
+}
+
 .cardsecteur p {
   color: white;
 }
