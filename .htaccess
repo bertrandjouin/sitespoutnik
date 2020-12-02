@@ -14,5 +14,5 @@ RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-Header set Cache-Control "max-age=60, public"
+Header set Cache-Control "max-age=10, public"
 </FilesMatch>
